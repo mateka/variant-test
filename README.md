@@ -15,7 +15,7 @@ Testing speed of static OO vs classic OO.
 |   200000000 |          1 |  200000000 |    273.482 |    2.11073 |   0.007718 |
 |   250000000 |          1 |  250000000 |    292.634 |    2.83409 | 0.00968478 |
 
-## Windows 10 Intel(R) Core(TM) i7-8550U CPU (4 cores, 8 threads, 1.80GHz) 16GB RAM gcc 7
+## Windows 10 Intel(R) Core(TM) i7-8550U CPU (4 cores, 8 threads, 1.80GHz) 16GB RAM Visual Studio 2019
 |Objects | Repetitions | Calls| OO | Variant | Ratio [variant / oo] |
 |---------------:|---------------:|---------------:|---------------:|---------------:|---------------:|
 |          10 |   10000000 |  100000000 |    1.28006 |    1.13395 |   0.885861 |
