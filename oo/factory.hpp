@@ -3,7 +3,7 @@
 #include "kinds.hpp"
 
 #include <memory>
-#include <exception>
+#include <stdexcept>
 
 namespace oo {
 

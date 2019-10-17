@@ -3,7 +3,7 @@
 #include "kinds.hpp"
 
 #include <variant>
-#include <exception>
+#include <stdexcept>
 
 namespace variant {
 
