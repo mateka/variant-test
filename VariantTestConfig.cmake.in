@@ -1,0 +1,13 @@
+@PACKAGE_INIT@
+
+# Inherit options and variables
+
+# Dependencies
+include(CMakeFindDependencyMacro)
+
+
+# Adding targets
+get_filename_component(SELF_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+include(${SELF_DIR}/VariantTestTargets.cmake)
+
+check_required_components(VariantTest)
